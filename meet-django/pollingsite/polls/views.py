@@ -6,4 +6,4 @@ from models import Poll, Choice
 # Remember each function/view the first argument/input has to be request
 
 def  index(request):
-	return HttpResponse("This is the index page")
+	return render(request, 'polls/marah.html' , 'cm.html', 'dl.html',)
